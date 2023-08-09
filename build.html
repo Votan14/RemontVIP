@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230807103241">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230809141312">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +20,13 @@
 					<a href="/" class="header__logo-box">
 						<img src="img/icons/logo.png" alt="">
 					</a>
-					<a href="" class="header__see-link" data-da=".menu__body, 991.98">
+					<a href="#" data-popup="#thanks" class="header__see-link" data-da=".menu__body, 991.98">
 						<img src="img/main/01.jpg" alt="">
 						<span>
 							Дивитись наші роботи
 						</span>
 					</a>
-					<a href="" class="header__calc-link" data-da=".menu__body, 991.98">
+					<a href="#" data-popup="#calculate" class="header__calc-link" data-da=".menu__body, 991.98">
 						<img src="img/icons/calculator.svg" alt="">
 						<span>
 							Калькулятор вартості
@@ -39,10 +39,10 @@
 							</p>
 							<div class="header__phone-links">
 								<a href="tel:+380976938387" class="header__phone-link">
-									+38(097) -69-38-387
+									+38(097) 69-38-387
 								</a>
 								<a href="tel:+380677463755" class="header__phone-link">
-									+38(067) -746-37 -55
+									+38(067) 746-37 -55
 								</a>
 							</div>
 						</div>
@@ -500,10 +500,10 @@
 								</p>
 								<div class="answer__links-box">
 									<a href="tel:+380976938387" class="answer__text">
-										+38(097) -69-38-387
+										+38(097) 69-38-387
 									</a>
 									<a href="tel:+380677463755" class="answer__text">
-										+38(067) -746-37 -55
+										+38(067) 746-37 -55
 									</a>
 								</div>
 							</div>
@@ -589,7 +589,198 @@
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230807103241"></script>
+	<div id="thanks" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.0002 10.586L16.9502 5.63599L18.3642 7.04999L13.4142 12L18.3642 16.95L16.9502 18.364L12.0002 13.414L7.05023 18.364L5.63623 16.95L10.5862 12L5.63623 7.04999L7.05023 5.63599L12.0002 10.586Z" fill="#434242" />
+					</svg>
+				</button>
+				<div class="thanks__box">
+					<p class="thanks__text">
+						Дякуємо за заявку! <br><br>
+						наш менеджер звя'жеться з вами найближчим часом
+					</p>
+					<button data-close type="button" class="thanks__button">
+						Ок
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="calculate" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content _yellow">
+				<div class="calculate__box">
+					<div class="calculate__line">
+					</div>
+					<p class="calculate__title">
+						Lorem ipsum dolor sit amet ?
+					</p>
+					<form action="" class="calculate__form">
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_2" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_2" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_3" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_3" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_4" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_4" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_5" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_5" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_6" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_6" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__btns-box">
+							<a href="#" data-popup="#calculate-end" class="button calculate__more">Далі</a>
+							<a href="" data-close class="button calculate__end">Закінчити</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="calculate-end" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content _yellow">
+				<div class="calculate__box">
+					<div class="calculate__line _end">
+					</div>
+					<p class="calculate__title">
+						Lorem ipsum dolor sit amet ?
+					</p>
+					<form action="" class="calculate__form">
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_1" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_2" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_2" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_3" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_3" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_4" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_4" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_5" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_5" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__chk-box">
+							<div class="checkbox">
+								<input id="c_6" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+								<label for="c_6" class="checkbox__label">
+									<span class="checkbox__text">
+										Ut enim ad minim
+										veniam, quis nostrud exercitation ullamco
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="calculate__btns-box">
+							<button data-close type="button" class="button calculate__end">Закінчити</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230809141312"></script>
 </body>
 
 </html>
